@@ -76,3 +76,54 @@
     width: 16px;
     height: 16px;
 }
+
+.pin-icon {
+    position: absolute;
+    left: 974px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+}
+
+.local-text {
+    position: absolute;
+    left: 1020px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    top: 40px;
+}
+
+.person-icon {
+    position: absolute;
+    left: 1114px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+}
+
+.login-text {
+    position: absolute;
+    left: 1160px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+    top: 40px;
+}
+
+.cart-icon {
+    position: absolute;
+    left: 1283px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+}
