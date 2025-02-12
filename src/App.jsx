@@ -5,9 +5,8 @@ function App() {
   return (
     <div>
       <div>
-        <Header texts={["Home", "Sobre mim", "Experiências", "Habilidades", "Formação", "Projetos"]}/>
+        <Header/>
       </div>
-      <h1>Desafio Super1</h1>
     </div>
   )
 }
