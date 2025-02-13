@@ -8,7 +8,9 @@ import Cart from '../../assets/cart-icon.svg'
 function header() {
 return (
     <div className='header'>
-        <img src={Logo} alt="Logo" className="logo" />
+        <a href='#home'>
+            <img src={Logo} alt="Logo" className="logo" />
+        </a>
         <div className="search">
             <input type="text" placeholder="O que você gostaria hoje?" className="search-bar"/>
             <button type="submit" className="search-button">
@@ -16,14 +18,20 @@ return (
             </button>
         </div>
         <div className="box-local">
-            <img src={Pin} alt="Local" className="pin-icon" />
-            <p className='local-text'><strong>Onde</strong><br/>Você está?</p>
+            <a href='#pin'>
+                <img src={Pin} alt="Local" className="pin-icon" />
+                <p className='local-text'><strong>Onde</strong><br/>Você está?</p>
+            </a>
         </div>
         <div className="box-login">
-            <img src={Person} alt="Usuário" className="person-icon" />
-            <p className='login-text'><strong>Faça login</strong><br/>ou cadastre-se</p>
+            <a href='#user'>
+                <img src={Person} alt="Usuário" className="person-icon" />
+                <p className='login-text'><strong>Faça login</strong><br/>ou cadastre-se</p>
+            </a>
         </div>
-        <img src={Cart} alt="Carrinho" className="cart-icon" />
+        <a href='#cart'>
+            <img src={Cart} alt="Carrinho" className="cart-icon" />
+        </a>
     </div>
 )
 }
