@@ -8,15 +8,47 @@
 
 .header-menu {
     position: fixed;
-    top: 122px; /* Ajuste conforme a altura do header */
+    top: 122px;
     left: 0;
     width: 100%;
     z-index: 999;
-    background-color: #EAE0D5; /* Cor de fundo para o menu */
+    background-color: #EAE0D5;
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 body {
-    padding-top: 172px; /* Ajuste conforme a altura combinada do header e header-menu */
+    padding-top: 172px;
+}
+
+.rectangle1, .rectangle2 {
+    width: 83px;
+    height: 48px;
+    margin-left: 45px;
+    margin-right: 45px;
+    z-index: 1001;
+    position: relative;
+    top: 56%;
+}
+
+.rectangle1 {
+    position: absolute;
+    left: 0;
+}
+
+.rectangle2 {
+    position: absolute;
+    right: 0;
+}
+
+.banner1 {
+    position: relative;
+}
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1194px;
+    height: 300px;
+    margin: 30px auto;
 }
