@@ -144,7 +144,7 @@ a:hover {
     }
 
     .logo {
-        left: 20px;
+        left: 50px; /* Ajuste a posição do logo para dar espaço ao menu */
         width: 130px;
         height: 22px;
     }
