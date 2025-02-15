@@ -1,3 +1,5 @@
+/* Vou ter que consertar tudo aqui depois kkk */
+
 .menu {
     display: flex;
     align-items: center;
@@ -32,17 +34,48 @@
     left: 0;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 1070px;
+    max-height: 400px;
+    overflow-y: auto;
 }
 
 .menu-suspenso a {
     padding: 5px 10px;
     text-decoration: none;
-    color: #333;
 }
 
-.menu-suspenso a:hover {
-    background-color: #f1f1f1;
+.menu-item {
+    margin-bottom: 5px;
+}
+
+.menu-item a {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.menu-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-item ul li {
+    margin-bottom: 5px;
+}
+
+.menu-item ul li a {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu-item ul li a:hover {
+    color: #555;
 }
