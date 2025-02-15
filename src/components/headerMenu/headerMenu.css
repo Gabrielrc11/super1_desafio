@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400&display=swap');
+
+.header-menu {
+    background-color: #F7F3EE;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 122px;
+}
+
+.menu::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 30px;
+    background-color: #EAE0D5;
+    position: absolute;
+    right: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-icon {
+    width: 19px;
+    height: 13px;
+    margin-right: 8px;
+}
+
+.arrow-icon {
+    width: 14px;
+    height: 13px;
+    margin-left: 8px;
+}
+
+.menu-text {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    color: #3F3F3F;
+    font-weight: 600;
+}
+
+.menu-suspenso {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-suspenso a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu-suspenso a:hover {
+    background-color: #f1f1f1;
+}
+
+.link-center, .link-end {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+}
+
+.link-center {
+    left: 352px;
+}
+
+.link-end {
+    left: 1189px;
+}
+
+.link-center:hover, .link-end:hover {
+    color: #555;
+    cursor: pointer;
+}

@@ -128,13 +128,14 @@
 }
 
 a {
-    color: inherit; /* Herda a cor do elemento pai */
-    text-decoration: none; /* Remove o sublinhado */
+    color: inherit;
+    text-decoration: none;
 }
 
 a:hover {
-    color: inherit; /* Mantém a cor ao passar o mouse */
-    text-decoration: none; /* Mantém o sublinhado removido ao passar o mouse */
+    color: inherit;
+    text-decoration: none;
+    color: #555;
 }
 
 @media (max-width: 768px) {

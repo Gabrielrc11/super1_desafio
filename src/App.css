@@ -1,0 +1,22 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-menu {
+    position: fixed;
+    top: 122px; /* Ajuste conforme a altura do header */
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #EAE0D5; /* Cor de fundo para o menu */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    padding-top: 172px; /* Ajuste conforme a altura combinada do header e header-menu */
+}
