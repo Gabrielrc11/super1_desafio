@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/header/header.jsx'
 import HeaderMenu from './components/headerMenu/headerMenu.jsx'
+import Catalogo from './components/catalogo/catalogo.jsx'
 import Banner1 from './assets/banner1.svg'
 import Rectangle from './assets/rectangle.svg'
 import Book from './assets/book.svg'
@@ -85,6 +86,7 @@ import Banner2 from './assets/banner2.svg'; // Import the second banner
               <p>Serviços</p>
             </div>
           </div>
+          <Catalogo className="catalogo"/>
       </div>
     );
   }

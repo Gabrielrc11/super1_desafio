@@ -1,0 +1,29 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+}
+
+.catalogo {
+    position: absolute;
+    left: 0;
+}
+
+.desc {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+.categorys {
+    position: absolute;
+    margin-top: 50px;
+    top: 100px;
+    left: 50px;
+    background-color: #FFFFFF;
+}
