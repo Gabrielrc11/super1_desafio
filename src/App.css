@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400&display=swap');
+
 .header {
     position: fixed;
     top: 0;
@@ -51,4 +53,37 @@ body {
     width: 1194px;
     height: 300px;
     margin: 30px auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.book {
+    width: 96px;
+    height: 96px;
+    transition: background-color 0.3s ease;
+}
+
+.book {
+    width: 96px;
+    height: 96px;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+}
+
+.book:hover {
+    background-color: #F47920;
+}
+
+.category {
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #3F3F3F;
+    font-weight: 300;
 }
